@@ -1,4 +1,4 @@
-# Project Pratikum AI
+# Project Pratikum AI - Identifikasi Objek jalanan 
 
 # Author
 Muhammad Wildan Kamil 220009
@@ -6,8 +6,6 @@ Reymontha Tarigan 220021
 Adrian Jeremia Kurniawan 220047
 Muhammad Exsfo al Banjari 220057
 Tegar Simanjuntak 220085
-
-# Identifikasi Objek jalanan 
 
 # Pendahuluan
 Proyek ini bertujuan untuk mendeteksi objek di jalan menggunakan algoritma YOLO (You Only Look Once) untuk membantu dalam mengemudi otonom. YOLO adalah algoritma deteksi objek real-time yang populer karena kemampuannya mencapai akurasi tinggi dengan kecepatan yang sangat cepat.
