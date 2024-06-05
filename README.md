@@ -40,5 +40,5 @@ Pilih kotak dengan skor tertinggi.
 Hitung tumpang tindih dengan semua kotak lainnya dan hapus kotak yang tumpang tindih lebih dari iou_threshold.
 Ulangi sampai tidak ada lagi kotak dengan skor lebih rendah dari kotak yang dipilih saat ini.
 
-Gambar Input:
-Gambar Output:
+- Gambar Input:
+- Gambar Output:
