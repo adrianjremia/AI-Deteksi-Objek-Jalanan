@@ -1,6 +1,6 @@
 # Project Pratikum AI
 
-## Author
+# Author
 Muhammad Wildan Kamil 220009
 Reymontha Tarigan 220021
 Adrian Jeremia Kurniawan 220047
