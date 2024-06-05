@@ -35,7 +35,7 @@ Untuk mengurangi jumlah objek yang terdeteksi, dua teknik diterapkan:
 - Score-thresholding: Buang kotak yang mendeteksi kelas dengan skor di bawah ambang batas.
 - Non-maximum suppression (NMS): Pilih hanya kotak dengan skor tertinggi dari beberapa prediksi untuk objek yang sama.
 
-Langkah-langkah NMS:
+- Langkah-langkah NMS:
 Pilih kotak dengan skor tertinggi.
 Hitung tumpang tindih dengan semua kotak lainnya dan hapus kotak yang tumpang tindih lebih dari iou_threshold.
 Ulangi sampai tidak ada lagi kotak dengan skor lebih rendah dari kotak yang dipilih saat ini.
