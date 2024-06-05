@@ -1,11 +1,11 @@
 # Project Pratikum AI
 
 Author
-Muhammad Wildan Kamil 220009
-Reymontha Tarigan 220021
-Adrian Jeremia Kurniawan 220047
-Muhammad Exsfo al Banjari 220057
-Tegar Simanjuntak 220085
+#Muhammad Wildan Kamil 220009
+#Reymontha Tarigan 220021
+#Adrian Jeremia Kurniawan 220047
+#Muhammad Exsfo al Banjari 220057
+#Tegar Simanjuntak 220085
 
 Identifikasi Objek jalanan 
 
