@@ -40,3 +40,8 @@ python detect.py --weights runs/train/exp12/weights/best.pt --source test_images
 Perintah di atas akan menggunakan bobot hasil pelatihan dari path runs/train/exp12/weights/best.pt untuk mendeteksi objek pada gambar test_images/imtest13.JPG.
 
 # Hasil Running
+
+![gambar](https://github.com/adrianjremia/AI-Deteksi-Objek-Jalanan/imtest.jpg)
+![gambar](https://github.com/adrianjremia/AI-Deteksi-Objek-Jalanan/imtest13.jpg)
+
+
