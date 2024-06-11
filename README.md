@@ -10,6 +10,9 @@
 # Pendahuluan
 Proyek ini bertujuan untuk mendeteksi objek di jalan menggunakan algoritma YOLO (You Only Look Once) untuk membantu dalam mengemudi otonom. YOLO adalah algoritma deteksi objek real-time yang populer karena kemampuannya mencapai akurasi tinggi dengan kecepatan yang sangat cepat.
 
+# Kegunaan
+Program kami ini akan mendeteksi berbagai kendaraan yang ada di jalanan seperti mobil, bus, truk, sepeda, dan motor. 
+
 # Dataset
 Dataset terdiri dari 120 gambar yang diambil oleh kamera yang dipasang di kap mobil yang bergerak. Gambar-gambar ini mensimulasikan pemandangan jalan yang akan dihadapi oleh mobil otonom.
 
