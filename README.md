@@ -26,11 +26,11 @@ Kemudian program akan mendeteksi dengan :
 python train.py --img 640 --batch 16 --epochs 50 --data dataset.yaml --weights yolov5m.pt
 
 Perintah di atas akan melatih model dengan parameter berikut:
---img 640: Ukuran gambar 640x640 piksel.
---batch 16: Ukuran batch 16.
---epochs 50: Jumlah epoch 50.
---data dataset.yaml: File konfigurasi dataset.
---weights yolov5m.pt: Menggunakan bobot model YOLOv5m yang sudah di-pretrained.
+- --img 640: Ukuran gambar 640x640 piksel.
+- --batch 16: Ukuran batch 16.
+- --epochs 50: Jumlah epoch 50.
+- --data dataset.yaml: File konfigurasi dataset.
+- --weights yolov5m.pt: Menggunakan bobot model YOLOv5m yang sudah di-pretrained.
 Setelah pelatihan selesai, bobot hasil pelatihan akan disimpan dan dapat digunakan untuk pengujian.
 
 python detect.py --weights runs/train/exp12/weights/best.pt --source test_images/imtest13.JPG
