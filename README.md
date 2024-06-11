@@ -32,11 +32,11 @@ Perintah di atas akan melatih model dengan parameter berikut:
 - --data dataset.yaml: File konfigurasi dataset.
 - --weights yolov5m.pt: Menggunakan bobot model YOLOv5m yang sudah di-pretrained.
 
-# Hasil Running
-
 Setelah pelatihan selesai, bobot hasil pelatihan akan disimpan dan dapat digunakan untuk pengujian.
 
 python detect.py --weights runs/train/exp12/weights/best.pt --source test_images/imtest13.JPG
 
 
 Perintah di atas akan menggunakan bobot hasil pelatihan dari path runs/train/exp12/weights/best.pt untuk mendeteksi objek pada gambar test_images/imtest13.JPG.
+
+# Hasil Running
