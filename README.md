@@ -41,7 +41,7 @@ Perintah di atas akan menggunakan bobot hasil pelatihan dari path runs/train/exp
 
 # Hasil Running
 
-![gambar](https://github.com/adrianjremia/AI-Deteksi-Objek-Jalanan/imtest.jpg)
-![gambar](https://github.com/adrianjremia/AI-Deteksi-Objek-Jalanan/imtest13.jpg)
+![gambar](https://github.com/adrianjremia/AI-Deteksi-Objek-Jalanan/blob/main/imtest.JPG)
+![gambar](https://github.com/adrianjremia/AI-Deteksi-Objek-Jalanan/blob/main/imtest13.JPG)
 
 
