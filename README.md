@@ -19,5 +19,19 @@ Dataset terdiri dari 1200 gambar yang diambil oleh kamera yang dipasang di kap m
 # Prediksi
 Prediksi adalah video yang terdiri dari 1200 gambar yang sama setelah diproses oleh model untuk menggambar kotak pembatas di sekitar objek yang terdeteksi.
 
-# Cara Menggunakan
+# Cara Kerja
+Upload image yang ingin dideteksi.
 
+Kemudian program akan mendeteksi dengan :
+python train.py --img 640 --batch 16 --epochs 50 --data dataset.yaml --weights yolov5m.pt
+
+Perintah di atas akan melatih model dengan parameter berikut:
+--img 640: Ukuran gambar 640x640 piksel.
+--batch 16: Ukuran batch 16.
+--epochs 50: Jumlah epoch 50.
+--data dataset.yaml: File konfigurasi dataset.
+--weights yolov5m.pt: Menggunakan bobot model YOLOv5m yang sudah di-pretrained.
+Setelah pelatihan selesai, bobot hasil pelatihan akan disimpan dan dapat digunakan untuk pengujian.
+
+python detect.py --weights runs/train/exp12/weights/best.pt --source test_images/imtest13.JPG
+Perintah di atas akan menggunakan bobot hasil pelatihan dari path runs/train/exp12/weights/best.pt untuk mendeteksi objek pada gambar test_images/imtest13.JPG.
