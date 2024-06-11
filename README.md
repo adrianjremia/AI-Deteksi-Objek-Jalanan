@@ -22,7 +22,7 @@ Prediksi adalah video yang terdiri dari 1200 gambar yang sama setelah diproses o
 # Cara Kerja
 Upload image yang ingin dideteksi.
 
-Kemudian program akan mendeteksi dengan :
+Kemudian program akan menlatih dengan:
 python train.py --img 640 --batch 16 --epochs 50 --data dataset.yaml --weights yolov5m.pt
 
 Perintah di atas akan melatih model dengan parameter berikut:
